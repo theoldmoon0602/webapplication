@@ -1,0 +1,80 @@
+.aiueo {
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 20px;
+}
+
+body {
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 220px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button .btn-active {
+    display: none;
+}
+
+button:active .btn-active {
+    display: initial;
+}
+
+button:active .btn-inactive {
+    display: none;
+}
+
+.d-man {
+    z-index: -1;
+    position: absolute;
+}
+
+.d-man-leftarm {
+    top: -100px;
+    position: relative;
+    left: -60px;
+    transform-origin: 51px 118px;
+}
+
+.d-man-rightarm {
+    position: relative;
+    left: -216px;
+    top: -105px;
+    transform-origin: 38px 120px;
+}
+
+.d-man-leftleg {
+    position: relative;
+    left: -220px;
+    bottom: -63px;
+    transform-origin: 4px 1px;
+}
+
+.d-man-rightleg {
+    position: relative;
+    left: -350px;
+    bottom: -65px;
+    transform-origin: 45px 3px;
+}
+
+#d-man-template {
+    display: none;
+}
